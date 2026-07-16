@@ -1,0 +1,32 @@
+{
+  "brief_id": "demo_drama_reunion_001",
+  "category": "short_drama",
+  "title": "《迟来的道歉》第1集片段：车站重逢",
+  "target_platform": "douyin",
+  "aspect_ratio": "9:16",
+  "total_duration_s": 15,
+  "tone": "都市情感，压抑克制，雨夜冷色调",
+  "key_message": "女主与失联三年的妹妹在车站意外重逢，情绪从错愕到隐忍崩溃",
+  "assets": [
+    {
+      "asset_id": "heroine_lin",
+      "kind": "character",
+      "path": "examples/assets/heroine_lin_ref.jpg",
+      "description": "女主林晚，28岁，黑色长直发，米白色高领毛衣外披深灰大衣，左手腕有细银手链",
+      "must_preserve": ["黑色长直发", "米白高领毛衣", "深灰大衣", "左腕银手链"]
+    },
+    {
+      "asset_id": "sister_ling",
+      "kind": "character",
+      "path": "examples/assets/sister_ling_ref.jpg",
+      "description": "妹妹林凌，24岁，栗色齐肩发，浅蓝色牛仔外套，背旧帆布包",
+      "must_preserve": ["栗色齐肩发", "浅蓝牛仔外套", "旧帆布包"]
+    }
+  ],
+  "hard_constraints": [
+    "两位角色外观全程不得改变",
+    "无台词镜头靠表演传达情绪",
+    "不出现任何品牌标识"
+  ],
+  "language": "zh"
+}

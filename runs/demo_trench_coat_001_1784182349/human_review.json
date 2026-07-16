@@ -1,0 +1,16 @@
+{
+  "shot_01": {
+    "decision": "approved",
+    "attempt": 2,
+    "note": "没毛病",
+    "reviewer": "测试员",
+    "ts": "2026-07-16T06:23:41.985251+00:00"
+  },
+  "shot_02": {
+    "decision": "rejected",
+    "attempt": null,
+    "note": "logo有点糊",
+    "reviewer": "测试员",
+    "ts": "2026-07-16T06:23:41.993498+00:00"
+  }
+}

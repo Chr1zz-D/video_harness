@@ -1,0 +1,29 @@
+[project]
+name = "video-harness"
+version = "0.1.0"
+description = "AIGC 短视频工业化流水线：分镜锚定 -> 模型适配 -> VLM 质检内环 -> 装配"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7",
+    "httpx>=0.27",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+review = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+]
+
+[project.scripts]
+video-harness-review = "harness.review_app:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+harness = ["review_static/*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

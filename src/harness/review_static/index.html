@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>video-harness 审核面板</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <h1>video-harness</h1>
+    <div id="run-list"></div>
+  </aside>
+  <main id="main">
+    <div class="empty-hint" id="empty-hint">从左侧选择一个 run 查看镜头审核与成本看板</div>
+    <div id="run-view" style="display:none">
+      <div class="run-header">
+        <div>
+          <h2 id="run-title"></h2>
+          <div class="sub" id="run-sub"></div>
+        </div>
+        <div class="actions">
+          <button id="btn-view-final">查看机审成片</button>
+          <button id="btn-assemble" class="primary">生成人工确认版成片</button>
+          <button id="btn-view-final-human">查看人工确认版</button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <div class="tab active" data-tab="shots">镜头审核</div>
+        <div class="tab" data-tab="cost">成本看板</div>
+      </div>
+
+      <div id="tab-shots"></div>
+      <div id="tab-cost" style="display:none"></div>
+    </div>
+  </main>
+</div>
+<script src="/static/app.js"></script>
+</body>
+</html>

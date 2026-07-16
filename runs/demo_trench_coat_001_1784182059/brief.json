@@ -1,0 +1,30 @@
+{
+  "brief_id": "demo_trench_coat_001",
+  "category": "ads_clothing",
+  "title": "米色双排扣风衣 秋冬新品短视频",
+  "target_platform": "tmall",
+  "aspect_ratio": "9:16",
+  "total_duration_s": 15,
+  "tone": "轻奢、都市、秋冬清晨氛围",
+  "key_message": "版型挺括显瘦，通勤与约会两穿",
+  "assets": [
+    {
+      "asset_id": "coat_beige_01",
+      "kind": "product",
+      "path": "examples/assets/coat_beige_01.jpg",
+      "description": "女款米色双排扣中长风衣，翻领，腰带收腰，左胸有品牌刺绣logo",
+      "must_preserve": [
+        "米色",
+        "双排扣",
+        "左胸刺绣logo",
+        "腰带收腰版型"
+      ]
+    }
+  ],
+  "hard_constraints": [
+    "模特为亚洲女性",
+    "不得出现任何其他品牌标识",
+    "背景路人面部必须虚化"
+  ],
+  "language": "zh"
+}

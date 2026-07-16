@@ -1,0 +1,26 @@
+[
+  {
+    "shot_id": "shot_01",
+    "passed": true,
+    "final_video": "runs/demo_trench_coat_001_1784182349/shots/shot_01/shot_01_a2.mp4",
+    "attempts": 2,
+    "cost_rmb": 0.0,
+    "escalated": false
+  },
+  {
+    "shot_id": "shot_02",
+    "passed": true,
+    "final_video": "runs/demo_trench_coat_001_1784182349/shots/shot_02/shot_02_a2.mp4",
+    "attempts": 2,
+    "cost_rmb": 0.0,
+    "escalated": false
+  },
+  {
+    "shot_id": "shot_03",
+    "passed": true,
+    "final_video": "runs/demo_trench_coat_001_1784182349/shots/shot_03/shot_03_a2.mp4",
+    "attempts": 2,
+    "cost_rmb": 0.0,
+    "escalated": false
+  }
+]

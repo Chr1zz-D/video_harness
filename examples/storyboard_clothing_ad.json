@@ -1,0 +1,48 @@
+{
+  "brief_id": "demo_trench_coat_001",
+  "version": 1,
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "duration_s": 5,
+      "scene": "清晨的城市街道，暖色晨光斜射，背景写字楼玻璃反光，行人虚化",
+      "subject": "亚洲女性模特身穿米色双排扣风衣，迎光走来，右手插袋，左手拨开被风吹起的发丝",
+      "emotion": "从容自信，嘴角微微上扬，目光平视前方带一点笃定",
+      "camera": "tracking",
+      "camera_note": "中景跟拍，与人物同速后退",
+      "asset_refs": ["coat_beige_01"],
+      "dialogue": "秋天的第一件风衣，要经得起风。",
+      "bgm_cue": "轻爵士鼓点进入",
+      "on_screen_text": null,
+      "extra_negative": []
+    },
+    {
+      "shot_id": "shot_02",
+      "duration_s": 5,
+      "scene": "同一街道路口，人物停步，晨光从侧面打亮衣料纹理",
+      "subject": "模特双手系紧风衣腰带后自然放下，随后轻拉翻领整理，展示双排扣细节",
+      "emotion": "专注而享受，系腰带时低头浅笑，整理翻领时抬眼",
+      "camera": "push_in",
+      "camera_note": "中景缓慢推近至半身，落点在左胸刺绣logo",
+      "asset_refs": ["coat_beige_01"],
+      "dialogue": "腰带一收，版型自己会说话。",
+      "bgm_cue": "弦乐渐入",
+      "on_screen_text": "双排扣 · 收腰版型",
+      "extra_negative": []
+    },
+    {
+      "shot_id": "shot_03",
+      "duration_s": 5,
+      "scene": "街角咖啡店门口，暖色灯光与冷色晨光交界",
+      "subject": "模特转身回眸，风衣下摆随转身自然展开，随后定格站姿",
+      "emotion": "回眸时眼神明亮带笑意，收尾定格转为平静大方",
+      "camera": "static",
+      "camera_note": "全景固定机位，人物占画面2/3",
+      "asset_refs": ["coat_beige_01"],
+      "dialogue": "通勤或赴约，它都接得住。",
+      "bgm_cue": "收束在一个干净的和弦",
+      "on_screen_text": "秋冬新品 · 现已上架",
+      "extra_negative": ["下摆展开时布料穿模"]
+    }
+  ]
+}

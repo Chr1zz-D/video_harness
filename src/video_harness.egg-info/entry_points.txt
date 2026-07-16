@@ -1,0 +1,2 @@
+[console_scripts]
+video-harness-review = harness.review_app:run

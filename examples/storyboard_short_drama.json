@@ -1,0 +1,48 @@
+{
+  "brief_id": "demo_drama_reunion_001",
+  "version": 1,
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "duration_s": 5,
+      "scene": "雨夜的高铁站出站口，冷白灯光，地面湿反光，行人撑伞虚化流动",
+      "subject": "林晚拖着行李箱走出闸机，抬头看指示牌时脚步忽然停住——视线越过人群定在远处",
+      "emotion": "错愕僵住：瞳孔微缩，握伞的手指收紧，呼吸停了一拍，嘴唇微张说不出话",
+      "camera": "push_in",
+      "camera_note": "中景缓慢推近至面部特写，配合她定住的节奏",
+      "asset_refs": ["heroine_lin"],
+      "dialogue": null,
+      "bgm_cue": "环境雨声突然收小，留一个低音持续",
+      "on_screen_text": null,
+      "extra_negative": []
+    },
+    {
+      "shot_id": "shot_02",
+      "duration_s": 5,
+      "scene": "同一出站口的另一侧，妹妹林凌站在立柱旁躲雨，帆布包抱在胸前",
+      "subject": "林凌察觉到视线转过头，认出对方的瞬间下意识后退半步，随后攥紧了包带",
+      "emotion": "慌乱与愧疚交织：眼神躲闪先移开又忍不住看回来，下颌绷紧，攥包带的指节发白",
+      "camera": "static",
+      "camera_note": "中近景固定机位，让后退半步的动作自己说话",
+      "asset_refs": ["sister_ling"],
+      "dialogue": null,
+      "bgm_cue": "低音持续，加入极轻的弦乐颤音",
+      "on_screen_text": null,
+      "extra_negative": ["帆布包消失或变形"]
+    },
+    {
+      "shot_id": "shot_03",
+      "duration_s": 5,
+      "scene": "两人之间隔着流动的人群，雨幕在站口灯光下成线",
+      "subject": "林晚松开行李箱拉杆向前走了两步又停下，抬起的手在半空停住，最终垂下攥成拳",
+      "emotion": "隐忍崩溃：眼眶迅速泛红蓄泪但强忍不落，喉结滚动像在咽下三年的话，最后深吸一口气",
+      "camera": "tracking",
+      "camera_note": "跟随林晚的两步前移，景深里始终虚焦着妹妹的身影",
+      "asset_refs": ["heroine_lin", "sister_ling"],
+      "dialogue": null,
+      "bgm_cue": "弦乐推起半拍又骤停，收在雨声里",
+      "on_screen_text": "三年了，她连一句解释都没有",
+      "extra_negative": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# 服饰电商广告 —— 判官 rubric v1
+#
+# hard_fail: true 的项不过直接判死（不计分，不重试次数内也优先修它）。
+# 商品保真项（must_preserve）由 judge.py 从资产定义动态追加，不写死在这里。
+# 人的审美没法进环，但验收标准可以：这份 rubric 就是把"客户会拒收什么"写成代码。
+
+pass_threshold: 75   # 加权得分 >= 75 且无 hard_fail 即通过
+
+items:
+  - key: subject_match
+    question: "画面主体与动作是否与分镜描述一致（人物在做描述中的动作）？"
+    weight: 3
+    hard_fail: false
+  - key: product_integrity
+    question: "服装/商品是否清晰、无变形、无颜色漂移、logo可辨认且未扭曲？"
+    weight: 5
+    hard_fail: true
+  - key: anatomy
+    question: "人物手部、面部、肢体是否自然，无多指/畸变/穿模？"
+    weight: 4
+    hard_fail: true
+  - key: emotion_delivery
+    question: "人物情绪是否与分镜的 emotion 描述相符（表情/肢体有对应外化表现）？"
+    weight: 2
+    hard_fail: false
+  - key: camera_match
+    question: "运镜是否与分镜指定的镜头运动大体一致？"
+    weight: 1
+    hard_fail: false
+  - key: temporal_stability
+    question: "整段视频是否稳定，无闪烁、跳变、主体突变（如衣服款式中途改变）？"
+    weight: 3
+    hard_fail: true
+  - key: no_artifacts
+    question: "画面是否干净：无水印、无乱码文字、无莫名出现的物体或人物？"
+    weight: 2
+    hard_fail: false

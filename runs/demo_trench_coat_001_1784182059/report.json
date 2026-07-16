@@ -1,0 +1,26 @@
+[
+  {
+    "shot_id": "shot_01",
+    "passed": false,
+    "final_video": null,
+    "attempts": 3,
+    "cost_rmb": 0.0,
+    "escalated": true
+  },
+  {
+    "shot_id": "shot_02",
+    "passed": false,
+    "final_video": null,
+    "attempts": 3,
+    "cost_rmb": 0.0,
+    "escalated": true
+  },
+  {
+    "shot_id": "shot_03",
+    "passed": false,
+    "final_video": null,
+    "attempts": 3,
+    "cost_rmb": 0.0,
+    "escalated": true
+  }
+]

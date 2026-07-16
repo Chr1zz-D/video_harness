@@ -1,0 +1,24 @@
+# 服饰电商广告 × 可灵 —— 正向模板 v1
+# 修改本文件请提 PR 并附对比样片；每个字段的措辞都是踩坑换来的。
+
+positive_template: >-
+  {scene}。{subject}。
+  人物情绪：{emotion}。
+  {assets}。
+  镜头：{camera}，{camera_note}。
+  {style}
+
+# 运镜枚举 -> 可灵吃得动的中文描述
+# （抽象词如 "tracking" 直接写英文效果差，必须翻成具体机位语言）
+camera_map:
+  static: "固定机位"
+  push_in: "缓慢推近"
+  pull_out: "缓慢拉远"
+  pan: "水平横摇"
+  tilt: "垂直摇移"
+  tracking: "跟随人物移动的跟拍"
+  handheld: "轻微手持晃动，纪实感"
+
+style_suffix: >-
+  电商大片质感，柔和自然光，浅景深，皮肤质感真实，服装面料纹理清晰，
+  色调干净通透，4K画质。

@@ -1,0 +1,14 @@
+{
+  "total_rmb": 0.0,
+  "by_stage_rmb": {
+    "video": 0.0
+  },
+  "by_shot_rmb": {
+    "shot_01": 0.0,
+    "shot_02": 0.0,
+    "shot_03": 0.0
+  },
+  "final_duration_s": 15,
+  "rmb_per_final_second": 0.0,
+  "event_count": 6
+}

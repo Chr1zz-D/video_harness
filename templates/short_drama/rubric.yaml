@@ -1,0 +1,35 @@
+# 短剧 —— 判官 rubric v1
+# 与广告 rubric 的关键差异：商品保真降权，角色一致性与情绪传达升为核心。
+# 角色卡的 must_preserve 保真点由 judge.py 动态追加为 hard_fail 项。
+
+pass_threshold: 72
+
+items:
+  - key: character_consistency
+    question: "人物面部/发型/服装是否与角色设定一致，全片无换脸或外观突变？"
+    weight: 5
+    hard_fail: true
+  - key: emotion_delivery
+    question: "人物情绪是否按分镜的 emotion 描述外化（表情/眼神/肢体可辨认）？"
+    weight: 4
+    hard_fail: false
+  - key: subject_match
+    question: "画面主体与动作是否与分镜描述一致，动作有明确因果（不是无意义摆动）？"
+    weight: 3
+    hard_fail: false
+  - key: anatomy
+    question: "手部、面部、肢体是否自然，无多指/畸变/穿模？"
+    weight: 4
+    hard_fail: true
+  - key: temporal_stability
+    question: "无闪烁、跳变，关键道具与场景元素全程未消失或突变？"
+    weight: 3
+    hard_fail: true
+  - key: camera_match
+    question: "运镜与分镜指定大体一致，服务于情绪而非炫技？"
+    weight: 1
+    hard_fail: false
+  - key: no_artifacts
+    question: "画面干净：无水印、乱码文字、诡异背景人物？"
+    weight: 2
+    hard_fail: false

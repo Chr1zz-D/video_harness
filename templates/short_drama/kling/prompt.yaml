@@ -1,0 +1,24 @@
+# 短剧 × 可灵 —— 正向模板 v1
+#
+# 短剧与广告的措辞差异：广告要"稳、亮、商品清晰"，短剧要"情绪外化、
+# 视线方向、动作因果"。竖屏短剧的信息密度靠面部特写扛，emotion 权重最高。
+
+positive_template: >-
+  {scene}。{subject}。
+  人物情绪与表演：{emotion}。
+  {assets}。
+  镜头：{camera}，{camera_note}。
+  {style}
+
+camera_map:
+  static: "固定机位"
+  push_in: "缓慢推近，情绪递进"
+  pull_out: "缓慢拉远，交代环境"
+  pan: "水平横摇"
+  tilt: "垂直摇移"
+  tracking: "跟随人物移动的跟拍"
+  handheld: "手持晃动，紧张纪实感"
+
+style_suffix: >-
+  竖屏短剧质感，电影级打光，人物面部表演细腻，眼神有戏，
+  景深突出主体，色调统一，画面连贯稳定。
